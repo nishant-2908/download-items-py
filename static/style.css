@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont;
+}
+
+.center {
+    text-align: center;
+}
+
+h2 {
+    font-size: 27px;
+}
+
+header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: whitesmoke;
+}
+
+h3.choose-title {
+    font-size: 18px;
+}
+
+h4.choose-title{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.container {
+    margin-top: 1.5%;
+}
+.custom p{
+    font-family: "SF Mono", 'Courier New', Courier, monospace;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    
+}
+.custom{
+    max-width: 80vw;
+    max-height: 70vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    text-overflow: clip;
+    word-break: keep-all;
+    background-color: #eee; 
+    padding: 10px;
+    border-radius: 10px;
+}
+.custom:hover{
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+.custom p{
+    white-space: nowrap;
+}
+span{
+    margin-top: 10px;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+}
+span:hover{
+    cursor: pointer;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+span.material-symbols-outlined#done{
+    zoom: 2;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgreen;
+    border-radius: 50%;
+}
+li{
+	font-size: 20px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    text-decoration: underline;
+    color: black;
+}

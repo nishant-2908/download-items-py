@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+{% block title %}
+<title>Download Items</title>
+{% endblock %}
+{% block body %}
+<div class="container flex mb-3">
+    <form action="/" method="POST" id="form">
+        <div class="mb-3">
+            <label for="number_of_items" class="form-label">
+                <h3 class="choose-title">
+                    Number of items
+                </h3>
+            </label>
+            <input type="number" class="form-control" placeholder="Enter the number of items"
+            name="number_of_items" id="number_of_items" autofocus autocapitalize="off" autocomplete="off"
+            min="1" max="100" value="1">
+        </div>
+        <div id="generated_field"></div>
+        <h3 class="choose-title" id="warning" style="color: red"></h3>
+        <button type="button" class="btn btn-primary" id="button">Check</button>
+        
+        </form>
+</div>
+{% endblock %}
+{% block script %}
+<script src="/static/index.js"></script>
+{% endblock %}
